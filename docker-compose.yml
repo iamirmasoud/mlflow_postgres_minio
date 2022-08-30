@@ -14,6 +14,7 @@ services:
       - "5432:5432"
   minio:
     image: minio/minio
+    container_name: minio_storage
     ports:
       - "9000:9000"
       - "9001:9001"
