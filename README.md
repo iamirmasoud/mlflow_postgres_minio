@@ -22,10 +22,7 @@ cd mlflow_postgres_minio
    conda create -n mlflow_env python=3.7
    source activate mlflow_env
    ```
-
-   At this point your command line should look something like: `(mlflow_env) <User>:mlflow_postgres_minio <user>$`.
-   The `(mlflow_env)` indicates that your environment has been activated, and you can proceed with further package
-   installations.
+   
 3. Install the prerequisites for building the `psycopg2` package from source on Ubuntu:
 
 ```shell
