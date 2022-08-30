@@ -2,7 +2,7 @@
 This is the repo for these blog posts:
 
 * [My Website: Setup collaborative MLflow with PostgreSQL as Tracking Server and MinIO as Artifact Store using docker containers](http://www.sefidian.com/2022/08/30/setup-collaborative-mlflow-with-postgresql-as-tracking-server-and-minio-as-artifact-store-using-docker-containers/)
-* [Medium](http://www.sefidian.com/2022/08/30/setup-collaborative-mlflow-with-postgresql-as-tracking-server-and-minio-as-artifact-store-using-docker-containers/)
+* [Medium Post](https://medium.com/@amir_masoud/setup-collaborative-mlflow-with-postgresql-as-tracking-server-and-minio-as-artifact-store-using-45c76a9d9814)
 
 ## Preparing the environment
 
@@ -32,14 +32,8 @@ cd mlflow_postgres_minio
 sudo apt install libpq-dev python3-dev
 ```
 
-3. Install requirements for the environment:
+4. Install requirements for the environment:
 
 ```shell
 pip install -r requirements.txt
-```
-
-4. Navigate back to the repo. (Also, your source environment should still be activated at this point.)
-
-```shell
-cd mlflow_postgres_minio
 ```

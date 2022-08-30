@@ -22,6 +22,8 @@ def eval_metrics(actual, pred):
 
 
 if __name__ == "__main__":
+    experiment_name = "demo_experiment"
+    mlflow.set_experiment(experiment_name)
     np.random.seed(40)
 
     # Read the wine-quality csv file from the URL
